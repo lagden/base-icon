@@ -1,6 +1,6 @@
 # @tadashi/base-icon
 
-Everything you need to build a Icon library, powered by [`@steeze-ui/icons`](https://github.com/steeze-ui/icons).
+Everything you need to build an icon library, powered by [`@steeze-ui/icons`](https://github.com/steeze-ui/icons).
 
 
 ## Creating a project
@@ -10,7 +10,8 @@ Run the command below to create a skeleton project.
 ```bash
 # create a new project in the current directory
 npx tiged lagden/base-icon#main my-icon-project
-
+cd my-icon-project
+npm install
 ```
 
 
@@ -37,7 +38,7 @@ The command will generate:
 - `src/lib/index.ts` file
 - `src/lib/types.d.ts` file
 
-You can see the generated icons by running the command below:
+You can see the generated icons by running the command:
 
 ```bash
 npm run dev
@@ -46,7 +47,7 @@ npm run dev
 
 ## Publishing
 
-Go into the `package.json` and give your package the desired name through the `"name"` option. Also consider adding a `"license"` field and point it to a `LICENSE` file which you can create from a template (one popular option is the [MIT license](https://opensource.org/license/mit/)).
+Go into the `package.json` and give your package the desired name through the `"name"` propertie. Also consider adding a `"license"` field and point it to a `LICENSE` file which you can create from a template (one popular option is the [MIT license](https://opensource.org/license/mit/)).
 
 To publish your library to [npm](https://www.npmjs.com):
 
@@ -57,7 +58,8 @@ npm publish
 
 ## Usage
 
-See the example of how you can use the icon library in your project.
+See an example how to use the icon library in your project.  
+https://svelte.dev/repl/fd948eca90d74e6c960503acd5972268
 
 
 ## Donate ❤️
